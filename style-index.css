@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+.body { /* Estilo do corpo */
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; /* Cor de fundo azul claro */
+}
+
+.h1 { /* Estilo do título h1 */
+  text-align: center;
+  color: #34495e; /* Cor do texto */
+}
+
+.h2{ /* Estilo do subtítulo */
+  color: #34495e;
+  text-align: center;
+}
+
+.section{ /* Estilo da seção */
+  background-color: #f0f0f0; /* Cor de fundo cinza claro */
+  padding: 10px; /* Espaçamento interno */
+  border-radius: 10px;
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.801); /* Sombra para dar profundidade */
+  max-width: 800px;
+  margin: 20px auto; /* Centraliza a seção na página */
+  width: auto; /* Largura automática */
+  height: auto; /* Altura automática */
+  text-align: center; /* Centraliza o texto dentro da seção */         
+}
+
+.header { /* Estilo da seção da página inicial */
+  background-color: #f0f0f0; /* Cor de fundo cinza claro */
+  padding: 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Bordas arredondadas */
+  max-width: 800px; /* Largura máxima da seção */
+  margin: 20px auto; /* Centraliza a seção na página */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.801); /* Sombra para dar profundidade */
+  text-align: center; /* Centraliza o texto dentro da seção */ 
+  justify-items: center;   
+}
+
+ul { /* Estilo da lista */
+  line-height: 1.6; /* Espaçamento entre linhas */
+  font-size: 1.1em; /*tamanho da letra*/
+  color: #4e4e4ef8; /* Cor da letra */
+  max-width: 800px; /* Largura máxima da lista */
+  list-style-type: square; /* Tipo de marcador */
+  margin: 20px auto; /* Centraliza a lista na página */
+  text-align: left;
+}
+
+.botao { /* Estilo do container dos botões */
+  display: flex; 
+  flex-direction: row;
+}
+
+.botao a { /* Estilo do link dentro do botão */
+  text-decoration: none; /* Remove o sublinhado do link */
+  color: inherit; /* Herda a cor do botão */
+  color: #f0f0f0;        
+}
+
+.btn { /* Estilo do link dentro do botão */   
+  display: inline-block; /* Garante que o botão seja tratado como bloco em linha */  
+  font-weight: bold;/* texto negrito*/
+  padding: 10px 20px; 
+  background-image: linear-gradient(to bottom, #6E92A1,#2E72F5); /*grandiente da cor de fundo*/
+  border-radius: 50px; /* Bordas arredondadas */
+  border: none; /* Remove bordas */
+  cursor: pointer; /* Muda o cursor para indicar que é clicável */
+  transition:all 0.6s; /* Transição suave para hover */
+  margin: 6px; /* Espaçamento entre os botões */
+  box-shadow: 0 5px 6px rgba(0, 0, 0, 0.1); /* Sombra para dar profundidade */      
+}
+
+.btn:hover{
+  transform: scale(1.1);
+}
+
+.img{
+  align-items: start;
+  height: auto;
+  max-width: 200px;
+}
+
+.cont{
+  display: flex; /* Coloca os itens lado a lado */
+  align-items: center; /* Alinha os itens verticalmente ao centro */
+  gap: 20px; /* Espaçamento entre a imagem e o texto */
+  box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.801); /* Sombra para dar profundidade */
+  padding: 50px; /* Espaçamento interno */
+border-radius: 10px; /* Bordas arredondadas */
+  width: 740px;
+  background-color: #f0f0f0; /* Cor de fundo cinza claro */
+  margin: auto;
+}
+
+
+/* Estilos específicos para o formulário de contato */
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #34495e;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box; /* Inclui padding e borda na largura total */
+  font-size: 1em;
+}
+
+.form-group textarea {
+  resize: vertical; /* Permite redimensionar verticalmente */
+  min-height: 100px;
+}
+
+.form-group button {
+  background-color: #2E72F5; /* Cor do botão de enviar */
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.1em;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.form-group button:hover {
+  background-color: #6E92A1;
+}
