@@ -134,3 +134,7 @@ border-radius: 10px; /* Bordas arredondadas */
 .form-group button:hover {
   background-color: #6E92A1;
 }
+
+.contato{
+text-align: center;
+}
